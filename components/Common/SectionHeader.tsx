@@ -31,7 +31,7 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
         viewport={{ once: true }}
         className="animate_top mx-auto text-center"
       >
-        <button className="mb-4 inline-flex items-center justify-center gap-5 rounded-full bg-zumthor px-15 py-4 dark:border dark:border-strokedark dark:bg-blacksection">
+        <button className="mb-4 inline-flex items-center justify-center gap-5 rounded-full bg-zumthor px-20 py-4 dark:border dark:border-strokedark dark:bg-blacksection">
           <span className="text-xl font-medium text-black dark:text-white">
             {title}
           </span>
@@ -78,7 +78,7 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
             </g>
           </svg>
         </button>
-        <h2 className="mx-auto mb-4 text-3xl font-bold text-black dark:text-white md:w-4/5 xl:w-1/2 xl:text-sectiontitle3">
+        <h2 className="mx-auto mb-4 mt-5 text-3xl font-bold text-black dark:text-white md:w-4/5 xl:w-1/2 xl:text-sectiontitle3">
           {subtitle}
         </h2>
         <p className="mx-auto md:w-4/5 lg:w-3/5 xl:w-[46%]">{description}</p>

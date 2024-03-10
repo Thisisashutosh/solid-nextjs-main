@@ -25,7 +25,7 @@ export default function Home() {
       <Hero />
       <Brands />
       <Feature />
-      <About />
+      {/* <About />
       <FeaturesTab />
       <FunFact />
       <Integration />
@@ -34,7 +34,7 @@ export default function Home() {
       <Testimonial />
       <Pricing />
       <Contact />
-      <Blog />
+      <Blog /> */}
     </main>
   );
 }
