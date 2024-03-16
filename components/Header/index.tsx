@@ -34,8 +34,8 @@ const Header = () => {
       }`}
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
-        <div className="flex w-full items-center justify-between bg-red-500 xl:w-1/4">
-          <a className="w-full bg-red-50" href="/">
+        <div className="flex w-full items-center justify-between xl:w-1/4">
+          <a className="w-1/2 md:w-full" href="/">
             <img
               src="/images/logo/mdw.png"
               alt="logo"
