@@ -51,7 +51,7 @@ const Footer = () => {
                   href="/"
                   className="mt-3 text-itemtitle font-medium text-black dark:text-white"
                 >
-                  contact@mydawaiwala.com
+                  contact@mydawaiwala.in
                 </a>
 
                 <div className="animate_top mb-3 mt-3">
