@@ -3,7 +3,7 @@ import React from "react";
 const index = () => {
   return (
     <div>
-      <div className="cardcontainer w-90 md:w-5/12 lg:w-4/12">
+      <div className="cardcontainer w-90 p-5 md:w-5/12 md:p-0 lg:w-4/12">
         <ul id="cards">
           <li className="card" id="card1">
             <div className="card-body">
