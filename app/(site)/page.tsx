@@ -4,8 +4,8 @@ import Brands from "@/components/Brands";
 import Feature from "@/components/Features";
 import About from "@/components/About";
 import FeaturesTab from "@/components/FeaturesTab";
-import Steps from "@/components/Steps";
-import AlternativeSteps from "@/components/AlternativeSteps"
+import Steps from "@/components/Steps"
+import WhyUs from "@/components/WhyUs"
 import Integration from "@/components/Integration";
 import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
@@ -26,7 +26,8 @@ export default function Home() {
       <Hero />
       <Brands />
       {/* <Steps /> */}
-      <AlternativeSteps/>
+      <Steps/>
+      <WhyUs/>
       <Feature />
       {/* <About /> */}
       {/* <FeaturesTab /> */}
