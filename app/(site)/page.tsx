@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
-import Feature from "@/components/Features";
+import Categories from "@/components/Categories";
 import About from "@/components/About";
 import FeaturesTab from "@/components/FeaturesTab";
 import Steps from "@/components/Steps"
@@ -28,7 +28,7 @@ export default function Home() {
       {/* <Steps /> */}
       <Steps/>
       <WhyUs/>
-      <Feature />
+      <Categories />
       {/* <About /> */}
       {/* <FeaturesTab /> */}
       {/* <Integration /> */}

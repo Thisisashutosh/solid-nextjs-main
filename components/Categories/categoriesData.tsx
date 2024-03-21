@@ -1,6 +1,4 @@
-import { Feature } from "@/types/feature";
-
-const featuresData: Feature[] = [
+const categoriesData: any = [
   {
     id: 1,
     icon: "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/105ceca515ee30509f93309ae75306aa.png?f=png?dim=256x0",
@@ -44,4 +42,4 @@ const featuresData: Feature[] = [
   },
 ];
 
-export default featuresData;
+export default categoriesData;
