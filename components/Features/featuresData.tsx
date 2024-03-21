@@ -3,44 +3,44 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    icon: "https://tiimg.tistatic.com/fp/1/007/507/paracetamol-fast-release-crocin-advance-tablet-500-mg-for-mild-to-moderate-pain--234.jpg",
-    title: "Paracetamol",
+    icon: "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/105ceca515ee30509f93309ae75306aa.png?f=png?dim=256x0",
+    title: "Diabetic Care",
    
   },
   {
     id: 2,
-    icon: "https://5.imimg.com/data5/SELLER/Default/2023/6/319597573/MH/NE/SR/135658020/ibuprofen-400-mg-bp-tablets.jpg",
-    title: "Ibuprofen",
+    icon: "https://images.apollo247.in/pub/media/catalog/category/babycare_2.jpg?tr=w-367.5,q-100,f-webp,c-at_max",
+    title: "Maternity Care",
   },
   {
     id: 3,
-    icon: "https://www.benadryl.ca/sites/benadryl_ca/files/styles/product_image/public/ben_062600963635_allergy_caplets_36ct_en.jpg",
-    title: "Antihistamine",
+    icon: "https://images.apollo247.in/pub/media/catalog/category/womencare_2.jpg?tr=w-367.5,q-100,f-webp,c-at_max",
+    title: "Feminine Hygiene",
   },
   {
     id: 4,
-    icon: "https://5.imimg.com/data5/SELLER/Default/2023/7/330506870/UM/GZ/QO/135658020/aspirin-dispersible-tablets.jpg",
-    title: "Aspirin",
+    icon: "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/ce48d6d71ace3892945f0b0a64c1f0e9.png?f=png?dim=256x0",
+    title: "Skin Care",
   },
   {
     id: 5,
-    icon: "https://cdn01.pharmeasy.in/dam/products_otc/Z63893/liveasy-wellness-antacid-mint-flavour-sugar-free-bottle-of-200ml-oral-liquid-2-1695207631.jpg",
-    title: "Antacid",
+    icon: "https://images.apollo247.in/pub/media/catalog/category/personalcare_2.jpg?tr=w-367.5,q-100,f-webp,c-at_max",
+    title: "Personal Care",
   },
   {
     id: 6,
-    icon: "https://m.media-amazon.com/images/I/61ildyzNgcL.jpg",
-    title: "Dettol",
+    icon: "https://cdn01.pharmeasy.in/dam/discovery/categoryImages/35d6d4e00e5d3058906cfa8b92ca799c.png?f=png?dim=256x0",
+    title: "Health Care",
   },
   {
     id: 7,
-    icon: "https://www.lyfechemist.com/wp-content/uploads/2022/09/Pan-40-Mg-tablet-.jpg",
-    title: "Pan 40",
+    icon: "https://images.apollo247.in/pub/media/catalog/category/healthdevices_2.jpg?tr=w-367.5,q-100,f-webp,c-at_max",
+    title: "Healthcare Devices",
   },
   {
     id: 8,
-    icon: "https://5.imimg.com/data5/SELLER/Default/2023/1/MA/BO/QE/977131/digital-thermometer-500x500.jpeg",
-    title: "Thermometer",
+    icon: "https://images.apollo247.in/pub/media/catalog/category/sexual_health_wellness_new.jpg?tr=w-367.5,q-100,f-webp,c-at_max",
+    title: "Sexual Health",
   },
 ];
 

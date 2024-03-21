@@ -34,7 +34,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         </h3>
         <button className="mb-4 inline-flex items-center justify-center gap-5 rounded-full bg-zumthor px-5 py-2 dark:border dark:border-strokedark dark:bg-blacksection">
           <span className="text-base font-medium text-black dark:text-white">
-            Order Now
+            And more...
           </span>
           <svg
             width="20px"

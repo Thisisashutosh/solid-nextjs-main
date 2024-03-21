@@ -35,7 +35,7 @@ const Header = () => {
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
-          <a className="w-1/2 md:w-full" href="/">
+          <a className="w-1/2 md:w-9/12" href="/">
             <img
               src="/images/logo/mdw.png"
               alt="logo"
@@ -150,8 +150,8 @@ const Header = () => {
               GitHub Repo 🌟
             </Link> */}
 
-            <button className="mb-4 inline-flex items-center justify-center gap-5 rounded-full bg-[#12a701] px-7 py-3 dark:border dark:border-strokedark dark:bg-blacksection">
-              <span className="text-xl font-medium text-white dark:text-white">
+            <button className=" inline-flex items-center justify-center gap-5 rounded-full bg-[#12a701] px-5 py-2 dark:border dark:border-strokedark dark:bg-blacksection">
+              <span className="text-base font-medium text-white dark:text-white">
                 Order now
               </span>
               <svg

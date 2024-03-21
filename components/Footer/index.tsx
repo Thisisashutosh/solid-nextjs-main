@@ -28,20 +28,21 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top flex w-1/2 flex-col items-start justify-center lg:w-1/4"
               >
-                {/* <a href="index.html" className="relative">
+                <a href="/" className="relative">
                   <Image
-                    width={250}
+                    width={300}
                     height={50}
-                    src="/images/logo/mdw.svg"
+                    src="/images/logo/mdw.png"
                     alt="Logo"
-                    className="dark:hidden"
+                    className=""
                   />
-                </a> */}
+                </a>
 
-                <p className="mb-10 mt-5">
+                <p className="mt-5">
                   Your health, our priority - trust My Dawai Wala for all your
                   medicinal needs.
                 </p>
+                <p className="mb-10 mt-2">Unit of Swiftmeds Pharma</p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   contact
