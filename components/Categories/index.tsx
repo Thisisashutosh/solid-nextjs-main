@@ -19,11 +19,13 @@ const Feature = () => {
             }}
           />
           {/* <!-- Section Title End --> */}
-
-          <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:mt-15 lg:grid-cols-4 xl:mt-20 xl:gap-12.5">
+          <p className="text-base mt-12.5 lg:mt-15 xl:mt-20 font-bold tracking-widest text-gray-700">
+            Select by category
+          </p>
+          <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-4 xl:gap-12.5">
             {/* <!-- Features item Start --> */}
 
-            {categoriesData.map((feature:any, key:any) => (
+            {categoriesData.map((feature: any, key: any) => (
               <SingleCategory feature={feature} key={key} />
             ))}
             {/* <!-- Features item End --> */}

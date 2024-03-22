@@ -4,6 +4,13 @@ const index = () => {
   return (
     <div>
       <div className="cardcontainer w-90 p-5 md:w-5/12 md:p-0 lg:w-4/12">
+        <h2 className="mb-5 mt-10 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
+          Why choose us?
+        </h2>
+        <p className="mb-10 text-center text-sm font-bold tracking-widest text-gray-700">
+          Choose us for quality, convenience, and expert guidance. Trust in our
+          commitment to your well-being.
+        </p>
         <ul id="cards">
           <li className="card" id="card1">
             <div className="card-body">
