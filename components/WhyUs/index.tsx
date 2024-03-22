@@ -7,7 +7,7 @@ const index = () => {
         <h2 className="mb-5 mt-10 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
           Why choose us?
         </h2>
-        <p className="mb-10 text-center text-sm font-bold tracking-widest text-gray-700">
+        <p className="text-center mb-10 md:w-4/5 lg:w-3/5 xl:w-[90%]">
           Choose us for quality, convenience, and expert guidance. Trust in our
           commitment to your well-being.
         </p>
