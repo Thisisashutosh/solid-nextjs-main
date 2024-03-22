@@ -19,7 +19,7 @@ const Feature = () => {
             }}
           />
           {/* <!-- Section Title End --> */}
-          <p className="text-base mt-12.5 lg:mt-15 xl:mt-20 font-bold tracking-widest text-gray-700">
+          <p className="text-base mb-5 mt-12.5 lg:mt-15 xl:mt-20 font-bold tracking-widest text-gray-700">
             Select by category
           </p>
           <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-4 xl:gap-12.5">
