@@ -80,9 +80,9 @@ const Feature = () => {
                 </h3>
               </div>
               <div className="flex items-center justify-center">
-                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-3 lg:py-1">
-                  <span className="text-sm font-medium text-black dark:text-white">
-                    And more...
+                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
+                  <span className="text-sm pr-1 font-medium text-black dark:text-white">
+                    Order
                   </span>
                   <svg
                     width="20px"
@@ -196,9 +196,9 @@ const Feature = () => {
                 </h3>
               </div>
               <div className="flex items-center justify-center">
-                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-3 lg:py-1">
-                  <span className="text-sm font-medium text-black dark:text-white">
-                    And more...
+                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
+                  <span className="text-sm pr-1 font-medium text-black dark:text-white">
+                    Order
                   </span>
                   <svg
                     width="20px"
@@ -294,9 +294,9 @@ const Feature = () => {
                 </h3>
               </div>
               <div className="flex items-center justify-center">
-                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-3 lg:py-1">
-                  <span className="text-sm font-medium text-black dark:text-white">
-                    And more...
+                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
+                  <span className="text-sm pr-1 font-medium text-black dark:text-white">
+                    Order
                   </span>
                   <svg
                     width="20px"
@@ -398,9 +398,9 @@ const Feature = () => {
                 </h3>
               </div>
               <div className="flex items-center justify-center">
-                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-3 lg:py-1">
-                  <span className="text-sm font-medium text-black dark:text-white">
-                    And more...
+                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
+                  <span className="text-sm pr-1 font-medium text-black dark:text-white">
+                    Order
                   </span>
                   <svg
                     width="20px"
@@ -502,9 +502,9 @@ const Feature = () => {
                 </h3>
               </div>
               <div className="flex items-center justify-center">
-                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-3 lg:py-1">
-                  <span className="text-sm font-medium text-black dark:text-white">
-                    And more...
+                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
+                  <span className="text-sm pr-1 font-medium text-black dark:text-white">
+                    Order
                   </span>
                   <svg
                     width="20px"
