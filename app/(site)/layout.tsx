@@ -18,6 +18,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <title>My DawaiWala</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Welcome to My Dawai Wala, one stop to all your medicine needs"
+        />
+        <link rel="icon" href="/images/favicon1.svg" />
+      </head>
       <body className={`dark:bg-black ${inter.className}`}>
         <ThemeProvider
           enableSystem={false}

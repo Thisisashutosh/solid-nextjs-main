@@ -6,7 +6,7 @@ import { useState } from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
+      <footer className="border-t border-stroke bg-green-50 dark:border-strokedark dark:bg-blacksection">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
           <div className="pt-10">
@@ -386,7 +386,7 @@ const Footer = () => {
                 <div className="flex flex-col gap-2 md:gap-0 md:flex-row items-center justify-between">
                   <p>
                     &copy; {new Date().getFullYear()} My Dawai Wala. Unit of
-                    Swiftmeds Pharma. All rights reserved
+                    SwiftMeds Pharma. All rights reserved
                   </p>
                   <div className="animate_top mb-3 mt-3">
                     <ul className="flex items-center gap-5">
@@ -487,7 +487,7 @@ const Footer = () => {
                 </div>
               </motion.div>
             </div>
-            <div className="flex items-center justify-center gap-5 py-7 dark:border-strokedark lg:flex lg:justify-center lg:gap-0">
+            <div className="flex items-center justify-center gap-5 pb-7 dark:border-strokedark lg:flex lg:justify-center lg:gap-0">
               <motion.div
                 variants={{
                   hidden: {
@@ -506,7 +506,7 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top"
               >
-                <p>Developed & Managed by SIDA Technologies</p>
+                <p>Built & Managed by SIDA Technologies</p>
               </motion.div>
             </div>
           </div>

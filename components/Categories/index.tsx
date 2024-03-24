@@ -18,10 +18,10 @@ const Feature = () => {
             }}
           />
           {/* <!-- Section Title End --> */}
-          <p className="mb-5 mt-12.5 text-base font-bold tracking-widest text-gray-700 lg:mt-15 xl:mt-20">
+          <p className="mb-5 mt-12.5 text-base text-center font-bold tracking-widest text-gray-700 lg:mt-15 xl:mt-20">
             Select by category
           </p>
-          <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-6 xl:gap-12.5">
+          <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-5 xl:gap-9">
             {/* <!-- Features item Start --> */}
             <motion.div
               variants={{
@@ -39,7 +39,7 @@ const Feature = () => {
               whileInView="visible"
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-slate-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
+              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
             >
               <div className="relative flex items-center justify-center rounded-[4px]">
                 <svg
@@ -145,7 +145,7 @@ const Feature = () => {
               whileInView="visible"
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-slate-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
+              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
             >
               <div className="relative flex items-center justify-center rounded-[4px]">
                 <svg
@@ -261,7 +261,7 @@ const Feature = () => {
               whileInView="visible"
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-slate-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
+              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
             >
               <div className="relative flex items-center justify-center rounded-[4px]">
                 <svg
@@ -359,7 +359,7 @@ const Feature = () => {
               whileInView="visible"
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-slate-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
+              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
             >
               <div className="relative flex items-center justify-center rounded-[4px]">
                 <svg
@@ -463,7 +463,7 @@ const Feature = () => {
               whileInView="visible"
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-slate-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
+              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
             >
               <div className="relative flex items-center justify-center rounded-[4px]">
                 <svg
@@ -499,110 +499,6 @@ const Feature = () => {
               <div className="flex items-center justify-center">
                 <h3 className="mb-5 mt-7.5 text-xl font-semibold text-black dark:text-white ">
                   Personal Care
-                </h3>
-              </div>
-              <div className="flex items-center justify-center">
-                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-3 lg:py-1">
-                  <span className="text-sm font-medium text-black dark:text-white">
-                    And more...
-                  </span>
-                  <svg
-                    width="20px"
-                    height="20px"
-                    viewBox="0 0 48 48"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="#000000"
-                  >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g
-                      id="SVGRepo_tracerCarrier"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></g>
-                    <g id="SVGRepo_iconCarrier">
-                      {" "}
-                      <title>Whatsapp-color</title>{" "}
-                      <desc>Created with Sketch.</desc> <defs> </defs>{" "}
-                      <g
-                        id="Icons"
-                        stroke="none"
-                        stroke-width="1"
-                        fill="none"
-                        fill-rule="evenodd"
-                      >
-                        {" "}
-                        <g
-                          id="Color-"
-                          transform="translate(-700.000000, -360.000000)"
-                          fill="#67C15E"
-                        >
-                          {" "}
-                          <path
-                            d="M723.993033,360 C710.762252,360 700,370.765287 700,383.999801 C700,389.248451 701.692661,394.116025 704.570026,398.066947 L701.579605,406.983798 L710.804449,404.035539 C714.598605,406.546975 719.126434,408 724.006967,408 C737.237748,408 748,397.234315 748,384.000199 C748,370.765685 737.237748,360.000398 724.006967,360.000398 L723.993033,360.000398 L723.993033,360 Z M717.29285,372.190836 C716.827488,371.07628 716.474784,371.034071 715.769774,371.005401 C715.529728,370.991464 715.262214,370.977527 714.96564,370.977527 C714.04845,370.977527 713.089462,371.245514 712.511043,371.838033 C711.806033,372.557577 710.056843,374.23638 710.056843,377.679202 C710.056843,381.122023 712.567571,384.451756 712.905944,384.917648 C713.258648,385.382743 717.800808,392.55031 724.853297,395.471492 C730.368379,397.757149 732.00491,397.545307 733.260074,397.27732 C735.093658,396.882308 737.393002,395.527239 737.971421,393.891043 C738.54984,392.25405 738.54984,390.857171 738.380255,390.560912 C738.211068,390.264652 737.745308,390.095816 737.040298,389.742615 C736.335288,389.389811 732.90737,387.696673 732.25849,387.470894 C731.623543,387.231179 731.017259,387.315995 730.537963,387.99333 C729.860819,388.938653 729.198006,389.89831 728.661785,390.476494 C728.238619,390.928051 727.547144,390.984595 726.969123,390.744481 C726.193254,390.420348 724.021298,389.657798 721.340985,387.273388 C719.267356,385.42535 717.856938,383.125756 717.448104,382.434484 C717.038871,381.729275 717.405907,381.319529 717.729948,380.938852 C718.082653,380.501232 718.421026,380.191036 718.77373,379.781688 C719.126434,379.372738 719.323884,379.160897 719.549599,378.681068 C719.789645,378.215575 719.62006,377.735746 719.450874,377.382942 C719.281687,377.030139 717.871269,373.587317 717.29285,372.190836 Z"
-                            id="Whatsapp"
-                          >
-                            {" "}
-                          </path>{" "}
-                        </g>{" "}
-                      </g>{" "}
-                    </g>
-                  </svg>
-                </button>
-              </div>
-            </motion.div>
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -10,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-slate-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
-            >
-              <div className="relative flex items-center justify-center rounded-[4px]">
-                <svg
-                  width="64px"
-                  height="64px"
-                  viewBox="0 0 48 48"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                  <g
-                    id="SVGRepo_tracerCarrier"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  ></g>
-                  <g id="SVGRepo_iconCarrier">
-                    {" "}
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M20.8032 17.4212L22.9203 24.8308L25.5109 21.5H31C31.5523 21.5 32 21.9477 32 22.5C32 23.0523 31.5523 23.5 31 23.5H26.4891L22.0797 29.1691L20.1968 22.5788L18.5848 25.4444H5C4.44772 25.4444 4 24.9967 4 24.4444C4 23.8921 4.44772 23.4444 5 23.4444H17.4152L20.8032 17.4212Z"
-                      fill="#333333"
-                    ></path>{" "}
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M10.3446 11.9881C8.88462 13.846 8 16.3844 8 19.0345C8 20.7861 8.34316 22.4516 8.93581 24.025L7.06419 24.73C6.39619 22.9566 6 21.0525 6 19.0345C6 15.9592 7.02123 12.9804 8.77202 10.7524C10.5276 8.51823 13.0561 7 16.0312 7C19.5348 7 22.1991 8.96337 24 11.7338C25.8008 8.9635 28.4651 7 31.9688 7C34.9442 7 37.4727 8.5185 39.2282 10.7527C40.9789 12.9809 42 15.9597 42 19.0345C42 25.617 37.4563 31.1139 33.1576 34.866C30.9836 36.7635 28.8144 38.2655 27.1908 39.2925C26.378 39.8067 25.6993 40.2035 25.2217 40.4728C24.9828 40.6075 24.794 40.7105 24.6636 40.7804C24.5985 40.8154 24.5479 40.8421 24.5129 40.8604L24.4724 40.8815L24.4611 40.8873L24.4578 40.8891L24.4567 40.8896C24.4563 40.8898 24.456 40.89 24 40C23.5662 40.901 23.5661 40.9009 23.5659 40.9009L23.5599 40.898L23.546 40.8912L23.4955 40.8664C23.4521 40.8449 23.3892 40.8134 23.3084 40.7723C23.1468 40.6899 22.9133 40.5684 22.6196 40.4091C22.0324 40.0905 21.2032 39.6199 20.2258 39.0068C18.2746 37.7828 15.7151 35.9803 13.3082 33.6741C12.0243 32.444 10.7773 31.0644 9.68759 29.5461C9.36556 29.0974 9.46824 28.4726 9.91692 28.1506C10.3656 27.8286 10.9904 27.9313 11.3124 28.38C12.3169 29.7795 13.4782 31.0672 14.6918 32.23C16.9708 34.4135 19.4113 36.1349 21.2886 37.3125C22.2255 37.9002 23.0177 38.3497 23.5733 38.6511C23.731 38.7367 23.8696 38.8103 23.9868 38.8716C24.0623 38.83 24.1466 38.783 24.2393 38.7307C24.6913 38.4758 25.3407 38.0963 26.1217 37.6023C27.6856 36.613 29.7664 35.1713 31.8424 33.3592C36.0437 29.6922 40 24.7063 40 19.0345C40 16.3848 39.1155 13.8464 37.6556 11.9884C36.2005 10.1365 34.2134 9 31.9688 9C28.866 9 26.4594 11.0208 24.8976 14.2018L24 16.0301L23.1024 14.2018C21.5405 11.0206 19.1339 9 16.0312 9C13.7868 9 11.7997 10.1363 10.3446 11.9881ZM24 40L23.5659 40.9009L24.0139 41.1165L24.4567 40.8896L24 40Z"
-                      fill="#333333"
-                    ></path>{" "}
-                  </g>
-                </svg>
-              </div>
-              <div className="flex items-center justify-center">
-                <h3 className="mb-5 mt-7.5 text-xl font-semibold text-black dark:text-white ">
-                  Healthcare Devices
                 </h3>
               </div>
               <div className="flex items-center justify-center">

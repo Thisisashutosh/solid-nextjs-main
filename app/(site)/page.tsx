@@ -15,7 +15,7 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "My Dawai Wala",
+  title: "My DawaiWala",
   description: "Welcome to My Dawai Wala, one stop to all your medine needs",
   // other metadata
 };
