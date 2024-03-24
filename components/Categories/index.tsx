@@ -18,7 +18,7 @@ const Feature = () => {
             }}
           />
           {/* <!-- Section Title End --> */}
-          <p className="mb-5 mt-12.5 text-base text-center font-bold tracking-widest text-gray-700 lg:mt-15 xl:mt-20">
+          <p className="mb-5 mt-12.5 text-center text-base font-bold tracking-widest text-gray-700 lg:mt-15 xl:mt-20">
             Select by category
           </p>
           <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-5 xl:gap-9">
@@ -81,7 +81,7 @@ const Feature = () => {
               </div>
               <div className="flex items-center justify-center">
                 <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
-                  <span className="text-sm pr-1 font-medium text-black dark:text-white">
+                  <span className="pr-1 text-sm font-medium text-black dark:text-white">
                     Order
                   </span>
                   <svg
@@ -197,7 +197,7 @@ const Feature = () => {
               </div>
               <div className="flex items-center justify-center">
                 <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
-                  <span className="text-sm pr-1 font-medium text-black dark:text-white">
+                  <span className="pr-1 text-sm font-medium text-black dark:text-white">
                     Order
                   </span>
                   <svg
@@ -295,7 +295,7 @@ const Feature = () => {
               </div>
               <div className="flex items-center justify-center">
                 <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
-                  <span className="text-sm pr-1 font-medium text-black dark:text-white">
+                  <span className="pr-1 text-sm font-medium text-black dark:text-white">
                     Order
                   </span>
                   <svg
@@ -399,7 +399,7 @@ const Feature = () => {
               </div>
               <div className="flex items-center justify-center">
                 <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
-                  <span className="text-sm pr-1 font-medium text-black dark:text-white">
+                  <span className="pr-1 text-sm font-medium text-black dark:text-white">
                     Order
                   </span>
                   <svg
@@ -503,7 +503,7 @@ const Feature = () => {
               </div>
               <div className="flex items-center justify-center">
                 <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
-                  <span className="text-sm pr-1 font-medium text-black dark:text-white">
+                  <span className="pr-1 text-sm font-medium text-black dark:text-white">
                     Order
                   </span>
                   <svg
