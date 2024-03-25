@@ -8,7 +8,7 @@ const Feature = () => {
     <>
       {/* <!-- ===== Features Start ===== --> */}
       <section id="features" className="py-20 lg:py-25 xl:py-30">
-        <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
+        <div className="mx-auto max-w-c-1390 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
@@ -21,7 +21,7 @@ const Feature = () => {
           <p className="mb-5 mt-12.5 text-center text-base font-bold tracking-widest text-gray-700 lg:mt-15 xl:mt-20">
             Select by category
           </p>
-          <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-5 xl:gap-9">
+          <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:h-80 lg:grid-cols-5 xl:gap-9">
             {/* <!-- Features item Start --> */}
             <motion.div
               variants={{
@@ -39,7 +39,7 @@ const Feature = () => {
               whileInView="visible"
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
+              className="animate_top z-40 flex flex-col items-center justify-center cursor-pointer rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
             >
               <div className="relative flex items-center justify-center rounded-[4px]">
                 <svg
@@ -80,7 +80,7 @@ const Feature = () => {
                 </h3>
               </div>
               <div className="flex items-center justify-center">
-                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
+                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:mt-5 lg:py-2">
                   <span className="pr-1 text-sm font-medium text-black dark:text-white">
                     Order
                   </span>
@@ -145,7 +145,7 @@ const Feature = () => {
               whileInView="visible"
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
+              className="animate_top z-40 cursor-pointer flex flex-col items-center justify-center rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
             >
               <div className="relative flex items-center justify-center rounded-[4px]">
                 <svg
@@ -196,7 +196,7 @@ const Feature = () => {
                 </h3>
               </div>
               <div className="flex items-center justify-center">
-                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
+                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:mt-5 lg:py-2">
                   <span className="pr-1 text-sm font-medium text-black dark:text-white">
                     Order
                   </span>
@@ -261,7 +261,7 @@ const Feature = () => {
               whileInView="visible"
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
+              className="animate_top z-40 cursor-pointer flex flex-col items-center justify-center rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
             >
               <div className="relative flex items-center justify-center rounded-[4px]">
                 <svg
@@ -294,7 +294,7 @@ const Feature = () => {
                 </h3>
               </div>
               <div className="flex items-center justify-center">
-                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
+                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:mt-5 lg:py-2">
                   <span className="pr-1 text-sm font-medium text-black dark:text-white">
                     Order
                   </span>
@@ -359,7 +359,7 @@ const Feature = () => {
               whileInView="visible"
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
+              className="animate_top z-40 cursor-pointer flex flex-col items-center justify-center rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
             >
               <div className="relative flex items-center justify-center rounded-[4px]">
                 <svg
@@ -398,7 +398,7 @@ const Feature = () => {
                 </h3>
               </div>
               <div className="flex items-center justify-center">
-                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
+                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:mt-5 lg:py-2">
                   <span className="pr-1 text-sm font-medium text-black dark:text-white">
                     Order
                   </span>
@@ -463,7 +463,7 @@ const Feature = () => {
               whileInView="visible"
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="animate_top z-40 cursor-pointer rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
+              className="animate_top z-40 cursor-pointer flex flex-col items-center justify-center rounded-[50px] border border-white bg-gray-100 p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4"
             >
               <div className="relative flex items-center justify-center rounded-[4px]">
                 <svg
@@ -502,7 +502,7 @@ const Feature = () => {
                 </h3>
               </div>
               <div className="flex items-center justify-center">
-                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:py-2">
+                <button className="inline-flex items-center justify-center gap-2 rounded-[50px] bg-blue-100 px-6 py-3 lg:px-4 lg:mt-5 lg:py-2">
                   <span className="pr-1 text-sm font-medium text-black dark:text-white">
                     Order
                   </span>
