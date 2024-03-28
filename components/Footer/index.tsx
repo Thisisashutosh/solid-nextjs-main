@@ -34,7 +34,7 @@ const Footer = () => {
                     Useful Links
                   </h4>
 
-                  <div className="flex items-start justify-start gap-20 text-sm sm:flex-col md:flex-row">
+                  <div className="flex items-start justify-start md:gap-20 text-sm flex-col md:flex-row">
                     <ul>
                       <li>
                         <a
@@ -204,14 +204,14 @@ const Footer = () => {
                     </h4>
                   </div>
 
-                  <div className="flex items-start justify-between md:gap-25 text-sm sm:flex-col md:flex-row">
+                  <div className="flex items-start justify-between md:gap-25 text-sm flex-col md:flex-row">
                     <ul>
                       <li>
                         <a
                           href="#"
                           className="mb-3 inline-block hover:text-primary"
                         >
-                          Vegetables and Fruits
+                          Personal Care
                         </a>
                       </li>
                       <li>
@@ -219,7 +219,7 @@ const Footer = () => {
                           href="#"
                           className="mb-3 inline-block hover:text-primary"
                         >
-                          Cold Drinks and Juices
+                          Elder Care
                         </a>
                       </li>
                       <li>
@@ -227,7 +227,7 @@ const Footer = () => {
                           href="#"
                           className="mb-3 inline-block hover:text-primary"
                         >
-                          Bakery and Buiscuits
+                          Ayurvedic Care
                         </a>
                       </li>
                       <li>
@@ -235,7 +235,7 @@ const Footer = () => {
                           href="#"
                           className="mb-3 inline-block hover:text-primary"
                         >
-                          Dry Fruits, Masala and oil
+                          Women Care
                         </a>
                       </li>
                       <li>
@@ -243,7 +243,7 @@ const Footer = () => {
                           href="#"
                           className="mb-3 inline-block hover:text-primary"
                         >
-                          Paan Corner
+                          Diabetic Care
                         </a>
                       </li>
                       <li>
@@ -251,93 +251,11 @@ const Footer = () => {
                           href="#"
                           className="mb-3 inline-block hover:text-primary"
                         >
-                          Pharma and Wellness
+                          Mother Care
                         </a>
                       </li>
                     </ul>
                     <ul>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Dairy and Breakfast
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Instant and Frozem Food
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Sweet Tooth
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Sauces and Spreads
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Organic and Premium
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Cleaning Essentials
-                        </a>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Munches
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Tea, Coffee and Health Drinks
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Atta, Rice and Dal
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Chicken, Meat and Fish
-                        </a>
-                      </li>
                       <li>
                         <a
                           href="#"
@@ -351,7 +269,81 @@ const Footer = () => {
                           href="#"
                           className="mb-3 inline-block hover:text-primary"
                         >
-                          Home and Office
+                          Home Care
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Skin Care
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Health and Devices
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Sexual Wellness
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Multivitamins
+                        </a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Accessories & Wearables
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Glucometers and Test strips
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                         Health food & Drinks
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Nutritional Drinks for kids
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Pain relief
                         </a>
                       </li>
                     </ul>
