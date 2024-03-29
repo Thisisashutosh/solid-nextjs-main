@@ -30,174 +30,6 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Useful Links
-                  </h4>
-
-                  <div className="flex items-start justify-start md:gap-20 text-sm flex-col md:flex-row">
-                    <ul>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          About
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Career
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Blog
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Press
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Lead
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Value
-                        </a>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Privacy
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Terms
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          FAQs
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Security
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Mobile
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Contact
-                        </a>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Partner
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Express
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Seller
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Warehouse
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="mb-3 inline-block hover:text-primary"
-                        >
-                          Deliver
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </motion.div>
-
-                <motion.div
-                  variants={{
-                    hidden: {
-                      opacity: 0,
-                      y: -20,
-                    },
-
-                    visible: {
-                      opacity: 1,
-                      y: 0,
-                    },
-                  }}
-                  initial="hidden"
-                  whileInView="visible"
-                  transition={{ duration: 1, delay: 0.1 }}
-                  viewport={{ once: true }}
-                  className="animate_top"
-                >
                   <div className="mb-9 flex items-center justify-start gap-8">
                     <h4 className=" text-itemtitle2 font-medium text-black">
                       Categories
@@ -344,6 +176,174 @@ const Footer = () => {
                           className="mb-3 inline-block hover:text-primary"
                         >
                           Pain relief
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </motion.div>
+
+                <motion.div
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      y: -20,
+                    },
+
+                    visible: {
+                      opacity: 1,
+                      y: 0,
+                    },
+                  }}
+                  initial="hidden"
+                  whileInView="visible"
+                  transition={{ duration: 1, delay: 0.1 }}
+                  viewport={{ once: true }}
+                  className="animate_top"
+                >
+                  <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
+                    Useful Links
+                  </h4>
+
+                  <div className="flex items-start justify-start md:gap-20 text-sm flex-col md:flex-row">
+                    <ul>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          About
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Career
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Blog
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Press
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Lead
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Value
+                        </a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Privacy
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Terms
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          FAQs
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Security
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Mobile
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Contact
+                        </a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Partner
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Express
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Seller
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Warehouse
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          className="mb-3 inline-block hover:text-primary"
+                        >
+                          Deliver
                         </a>
                       </li>
                     </ul>
