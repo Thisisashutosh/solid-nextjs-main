@@ -4,8 +4,8 @@ import Brands from "@/components/Brands";
 import Categories from "@/components/Categories";
 import About from "@/components/About";
 import FeaturesTab from "@/components/FeaturesTab";
-import Steps from "@/components/Steps"
-import WhyUs from "@/components/WhyUs"
+import Steps from "@/components/Steps";
+import WhyUs from "@/components/WhyUs";
 import Integration from "@/components/Integration";
 import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
@@ -13,6 +13,7 @@ import Pricing from "@/components/Pricing";
 import Contact from "@/components/Contact";
 import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
+import Imagecarousel from "@/components/Crousel";
 
 export const metadata: Metadata = {
   title: "My DawaiWala",
@@ -25,9 +26,10 @@ export default function Home() {
     <main>
       <Hero />
       <Brands />
+      <Imagecarousel />
       {/* <Steps /> */}
-      <Steps/>
-      <WhyUs/>
+      <Steps />
+      <WhyUs />
       <Categories />
       {/* <About /> */}
       {/* <FeaturesTab /> */}
