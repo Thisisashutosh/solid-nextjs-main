@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <Brands />
+      {/* <Hero /> */}
       <Imagecarousel />
+      <Brands />
       {/* <Steps /> */}
       <Steps />
       <WhyUs />
