@@ -12,7 +12,7 @@ const index = () => {
             Order medicines in 4 easy steps
           </h2>
         </div>
-        <ul className="mx-auto mt-12 grid max-w-md grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:max-w-5xl lg:grid-cols-4">
+        <ul className="mx-auto mt-12 grid w-fit grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:grid-cols-3">
           <li className="flex-start group relative flex lg:flex-col">
             <span
               className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:left-auto lg:right-0 lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
@@ -59,7 +59,7 @@ const index = () => {
                 Select category
               </h3>
               <h4 className="mt-2 text-base text-gray-700">
-              Browse our online pharmacy for desired medication availability.
+                Scan the QR code/use our WhatsApp number/visit our website.
               </h4>
             </div>
           </li>
@@ -100,14 +100,14 @@ const index = () => {
             </div>
             <div className="ml-6 lg:ml-0 lg:mt-10">
               <h3 className="before:font-mono text-xl font-bold text-gray-900 before:mb-2 before:block before:text-sm before:text-gray-500">
-                Choose medicine
+              Choose how you want to order
               </h3>
               <h4 className="mt-2 text-base text-gray-700">
-              Compare options, considering dosage, price, and reviews.
+              Upload your prescription/send the medicine name/talk to our pharmacist 
               </h4>
             </div>
           </li>
-          <li className="flex-start group relative flex lg:flex-col">
+          {/* <li className="flex-start group relative flex lg:flex-col">
             <span
               className="absolute left-[18px] top-14 h-[calc(100%_-_32px)] w-px bg-gray-300 lg:left-auto lg:right-0 lg:top-[18px] lg:h-px lg:w-[calc(100%_-_72px)]"
               aria-hidden="true"
@@ -133,10 +133,10 @@ const index = () => {
                 Redirect to WhatsApp
               </h3>
               <h4 className="mt-2 text-base text-gray-700">
-              Click on order now and and redirect to WhatsApp Bot
+                Click on order now and and redirect to WhatsApp Bot
               </h4>
             </div>
-          </li>
+          </li> */}
           <li className="flex-start group relative flex lg:flex-col">
             <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-gray-300 bg-gray-50 transition-all duration-200 group-hover:border-gray-900 group-hover:bg-gray-900">
               <svg
@@ -174,7 +174,7 @@ const index = () => {
                 Place your order
               </h3>
               <h4 className="mt-2 text-base text-gray-700">
-                That's it. Your medicines have been ordered.
+                That's it. It's this easy to order medicines from MyDawaiWala.
               </h4>
             </div>
           </li>
