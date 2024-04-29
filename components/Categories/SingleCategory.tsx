@@ -22,11 +22,12 @@ const SingleFeature = ({props}) => {
         viewport={{ once: true }}
         className="animate_top z-40 flex flex-col items-center justify-center rounded-[50px] transition-all"
       >
-        <div className="relative flex cursor-pointer items-center justify-center rounded-[50px] bg-gray-100 p-10 hover:shadow-2xl hover:duration-300">
-          {props.icon}
+        <div className="relative flex cursor-pointer items-center justify-center rounded-[50px] bg-gray-100 hover:shadow-2xl hover:duration-300">
+        <div dangerouslySetInnerHTML={{ __html: props.icon }} />
+          
         </div>
         <div className="flex items-center justify-center">
-          <h3 className="mb-5 mt-5 text-base font-semibold text-black dark:text-white">
+          <h3 className="mb-5 mt-5 text-base text-center font-semibold text-black dark:text-white">
             {props.title}
           </h3>
         </div>
