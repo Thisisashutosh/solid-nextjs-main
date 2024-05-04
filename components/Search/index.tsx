@@ -3,7 +3,7 @@ import React from "react";
 const Search = () => {
   return (
     <div>
-      <div className="mx-auto w-full md:w-96 border-2 rounded-full">
+      <div className="mx-auto w-full  border-2 rounded-full">
         <div className="relative flex h-10 w-full items-center overflow-hidden rounded-full bg-white focus-within:shadow-lg">
           <div className="grid h-full w-12 place-items-center text-gray-300">
             <svg

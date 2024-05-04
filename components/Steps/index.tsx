@@ -9,7 +9,7 @@ const index = () => {
             How It Works
           </p>
           <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
-            Order medicines in 4 easy steps
+            Order medicines in 3 easy steps
           </h2>
         </div>
         <ul className="mx-auto mt-12 grid w-fit grid-cols-1 gap-10 sm:mt-16 lg:mt-20 lg:grid-cols-3">

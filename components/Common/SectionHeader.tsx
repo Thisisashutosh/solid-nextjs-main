@@ -31,6 +31,9 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
         viewport={{ once: true }}
         className="animate_top mx-auto text-center"
       >
+        <h2 className="mx-auto mb-10 mt-5 text-xl font-bold text-black dark:text-white md:w-4/5 xl:w-1/2 xl:text-2xl">
+        Delivering Medicines at your Doorstep in 20 mins!
+        </h2>
         <button className="mb-4 inline-flex items-center justify-center gap-5 rounded-full bg-zumthor px-20 py-4 dark:border dark:border-strokedark dark:bg-blacksection">
           <span className="text-xl font-medium text-black dark:text-white">
             {title}
