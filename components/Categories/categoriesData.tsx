@@ -14,7 +14,7 @@ const categoriesData: any = [
   {
     id: 1,
     icon: svg[2],
-    title: "Ayurvedic Care",
+    title: "Summer Essentials",
   },
   {
     id: 1,
