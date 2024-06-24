@@ -240,7 +240,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="/grievance-readdresal-policy.html"
                           className="mb-3 inline-block hover:text-primary"
                         >
                           Lead
@@ -258,7 +258,7 @@ const Footer = () => {
                     <ul>
                       <li>
                         <a
-                          href="#"
+                          href="privacy-policy.html"
                           className="mb-3 inline-block hover:text-primary"
                         >
                           Privacy
@@ -266,7 +266,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="terms-and-conditions.html"
                           className="mb-3 inline-block hover:text-primary"
                         >
                           Terms
@@ -340,7 +340,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="return-refund-cancellation-policy.html"
                           className="mb-3 inline-block hover:text-primary"
                         >
                           Deliver
