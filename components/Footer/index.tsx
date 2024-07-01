@@ -240,7 +240,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          href="/grievance-readdresal-policy.html"
+                          href="/grievancepolicy"
                           className="mb-3 inline-block hover:text-primary"
                         >
                           Lead
